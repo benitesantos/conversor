@@ -26,7 +26,7 @@ O projeto foi feito em orientação a objeto. Aonde o objeto tem métodos e cara
 ### def init
 Exibe as características da janela, como botões e labels. Chamado também como o Método Construtor.
 
-```json
+```python
 def __init__(self):
         super(Conversor,self).__init__()
         self.setupUi(self)
@@ -42,7 +42,7 @@ def __init__(self):
 ### def convert_binario
 Função que converte um número digitado em binário.
 
-```json
+```python
 
 def convert_binario(self):
         try:
@@ -67,7 +67,7 @@ def convert_binario(self):
 ### def convert_decimal
 Função que converte um número digitado em decimal
 
-```json
+```python
 
  def convert_decimal(self):
         try:
@@ -93,14 +93,14 @@ Função que converte um número digitado em decimal
 ### def convert_num
 Função integrada com o botão de comando.Para saber quando o usuário clicar no botão, qual das duas funções o python executara o comando.
 
-```json
-
+```python
  def converter_num(self):
        if self.val == 'Decimal para Binário':
            self.convert_binario()
            
        else:
            self.convert_decimal()
+
 ```
 ## **Aprendizagem**
 Aprendi a colocar varias ferramentas que ainda não tinha conhecimento do PyQt.
@@ -114,3 +114,6 @@ dentro de outra função.
 ## **Dificuldades**
 - Encontrar os metodos certos para que a combobox funcionasse direito.
 - Definir uma logica boa para que o python desse as condições para digitar de forma correta na caixa de mensagem.
+
+
+
